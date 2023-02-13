@@ -1,4 +1,6 @@
 import colors from 'colors'
+import mongoose from 'mongoose'
+import { MONGO_URI } from '..'
 
 const mongoDB = async () => {
   console.log(colors.yellow('Please wait while connecting to database...'))
